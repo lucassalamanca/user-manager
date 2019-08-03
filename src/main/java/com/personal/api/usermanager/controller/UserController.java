@@ -14,7 +14,7 @@ import com.personal.api.usermanager.domain.User;
 import com.personal.api.usermanager.services.UserService;
 
 @RestController
-@RequestMapping("/v2/users/")
+@RequestMapping("/users/")
 public class UserController {
 	
 	@Autowired
