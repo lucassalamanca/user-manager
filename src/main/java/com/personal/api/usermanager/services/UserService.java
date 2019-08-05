@@ -2,7 +2,7 @@ package com.personal.api.usermanager.services;
 
 import org.springframework.stereotype.Service;
 
-import com.personal.api.usermanager.domain.User;
+import com.personal.api.usermanager.model.User;
 
 @Service
 public class UserService {

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.personal.api.usermanager.domain.User;
+import com.personal.api.usermanager.model.User;
 import com.personal.api.usermanager.services.UserService;
 
 @RestController
