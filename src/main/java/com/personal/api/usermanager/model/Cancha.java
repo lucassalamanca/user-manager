@@ -9,7 +9,6 @@ import javax.persistence.Id;
 public class Cancha {
 	
 	@Id
-//    @GeneratedValue(strategy=GenerationType.TABLE)
     private Long id;
 
 	private String nombre;
