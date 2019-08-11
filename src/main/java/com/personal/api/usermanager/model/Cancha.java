@@ -1,8 +1,6 @@
 package com.personal.api.usermanager.model;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
@@ -14,6 +12,15 @@ public class Cancha {
 	private String nombre;
     private String direccion;
     private String telefono;
+    
+    public Cancha () { }
+    
+    public Cancha (Long id, String nombre, String direccion, String telefono) {
+    	this.id = id;
+    	this.nombre = nombre;
+    	this.direccion = direccion;
+    	this.telefono = telefono;
+    }
     
 	public Long getId() {
 		return id;
