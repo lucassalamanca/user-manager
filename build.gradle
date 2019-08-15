@@ -23,6 +23,10 @@ dependencies {
 	compile "io.springfox:springfox-swagger-ui:2.9.2"
 }
 
+wrapper {
+    gradleVersion = '4.4'
+}
+
 task stage {
 	dependsOn build
 }
@@ -31,6 +35,4 @@ jar {
 	baseName = 'user-manager'
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.0'
-}
+
