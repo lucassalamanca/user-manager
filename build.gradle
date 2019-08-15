@@ -23,4 +23,10 @@ dependencies {
 	compile "io.springfox:springfox-swagger-ui:2.9.2"
 }
 
+task stage {
+	dependsOn build
+}
 
+jar {
+	baseName = 'user-manager'
+}
