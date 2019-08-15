@@ -1,0 +1,7 @@
+{
+  "name": "User Manager rest service",
+  "description": "This is a a rest service to expose functionality for hay equipo platform.",
+  "repository": "https://github.com/lucassalamanca/user-manager",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}
